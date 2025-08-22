@@ -10,14 +10,12 @@ let name = window.prompt("Name of the item: ", "foo");
 console.log("name", name);
 
 //step 5
-// Need to add 'return' to make it work
 let found = items.find((item) => {
   return item.name === name;
 });
 console.log("found", found);
 
 //step 6
-
 function message(itemName) {
   if (found != undefined) {
     return `${itemName} has been found!`;
@@ -28,14 +26,12 @@ function message(itemName) {
 console.log(message(name));
 
 //step 7
-// Prompt the user to enter a string we will use to discover if any item has that string in their name. Store the user input in a variable called search.
 let search = window.prompt(
   "Enter in a string to see if any items have that in their name: "
 );
 console.log("search", search);
 
 //step 8
-
 let foundItems = items.filter((item) => {
   return item.name === search;
 });
@@ -62,7 +58,6 @@ let mappedValues = items.map((item) => {
 console.log(mappedValues);
 
 //step 10
-
 let chosenKey = window.prompt("Enter id or price: ");
 console.log("chosenKey", chosenKey);
 
