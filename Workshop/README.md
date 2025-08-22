@@ -1,0 +1,5 @@
+# Block 16 Workshop: GroceryList
+
+This workshop will be similar to others you have observed. We will be working with the window prompt() method to get some user input, and use that data to manipulate an array of grocery items. You will get familiar with using array methods such as find(), map(), reduce(), and more.
+
+For this workshop, you will be building a simple app that asks for some input data, and will use array methods to manipulate and retrieve data from our array of grocery items.
